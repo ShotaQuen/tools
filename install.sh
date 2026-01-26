@@ -94,7 +94,7 @@ check_ip_whitelist() {
 
 display_welcome
 install_jq
-check_token
+check_ip_whitelist
 
 while true; do
   clear
