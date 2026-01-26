@@ -88,7 +88,7 @@ check_ip_whitelist() {
     echo -e "${YELLOW}© Ikann${NC}"
     exit 1
   fi
-
+  sleep 5
   clear
 }
 
