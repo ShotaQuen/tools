@@ -67,7 +67,7 @@ check_ip_whitelist() {
 
   echo -e "${YELLOW}IP VPS ANDA : $MY_IP${NC}"
 
-  RAW_URL="https://raw.githubusercontent.com/sandyparadox59-alt/felixbetates/refs/heads/main/gmbs/gg.json"
+  RAW_URL="https://raw.githubusercontent.com/ShotaQuen/tools/refs/heads/main/gg.json"
 
   json=$(curl -fsS --max-time 10 "$RAW_URL") || json=""
   if [ -z "$json" ]; then
